@@ -29,3 +29,23 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+// Function to add animation class
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      // Optional: Remove the class if you want the animation to trigger every time the element comes into view
+      entry.target.classList.remove('visible');
+    }
+  });
+}, {
+  rootMargin: '0px',
+  threshold: 0.1 // Adjust this value based on when you want the animation to start
+});
+
+// Select all elements that should be animated
+const elementsToAnimate = document.querySelectorAll('.animate');
+elementsToAnimate.forEach((el) => {
+  observer.observe(el);
+});
