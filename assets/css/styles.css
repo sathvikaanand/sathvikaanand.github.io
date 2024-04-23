@@ -172,7 +172,7 @@ body.light-theme {
 
 .light-theme .button,
 .light-theme .skills__content,
-.light-theme .services__card,
+.light-theme .experience__card,
 .light-theme .work__card,
 .light-theme .testimonial__card,
 .light-theme .contact__card,
@@ -945,7 +945,7 @@ body.light-theme {
     font-size: var(--smaller-font-size);
   }
 
-  .services__container {
+  .experience__container {
     grid-template-columns: 145px;
     justify-content: center;
   }
@@ -1011,17 +1011,17 @@ body.light-theme {
     column-gap: 5.5rem;
   }
 
-  .services__container {
+  .experience__container {
     grid-template-columns: repeat(3, 177px);
     justify-content: center;
   }
 
-  .services__modal-content {
+  .experience__modal-content {
     width: 500px;
     padding: 4.5rem 2.5rem 2.5rem;
   }
 
-  .services__modal-description {
+  .experience__modal-description {
     padding: 0 3.5rem;
   }
 
@@ -1158,12 +1158,12 @@ body.light-theme {
     margin-bottom: 3.5rem;
   }
 
-  .services__container {
+  .experience__container {
     grid-template-columns: repeat(3, 300px);
     column-gap: 2rem;
   }
 
-  .services__card {
+  .experience__card {
     padding: 5rem 2rem 1.5rem;
   }
 
