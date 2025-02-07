@@ -332,12 +332,11 @@ body.light-theme {
   width: 160px;
 }
 
-.home__handle img {
+.home__handle {
   justify-self: center;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  
+
   background: linear-gradient(
     180deg,
     hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
@@ -928,7 +927,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 130px;
+    width: 220px;
   }
 
   .about__info {
