@@ -332,10 +332,12 @@ body.light-theme {
   width: 160px;
 }
 
-.home__handle {
+.home__handle img {
   justify-self: center;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  
   background: linear-gradient(
     180deg,
     hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
